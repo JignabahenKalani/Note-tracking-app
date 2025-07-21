@@ -56,7 +56,7 @@ app.put("/notes/:id",(req,res)=>{
 
 // delete
 
-app.delete("/api/notes/:id", (req, res) => {
+app.delete("/notes/:id", (req, res) => {
   const notes = readData();
   const filtered = notes.filter(note => note.id !== req.params.id);
   if (notes.length === filtered.length) return res.status(404).json({ message: "Note not found" });

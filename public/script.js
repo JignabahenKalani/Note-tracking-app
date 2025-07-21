@@ -44,7 +44,7 @@ const updateNote = async (id) => {
   }
 };
 
-noteForm.addEventListener("submit", async (e) => {
+note_form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const title = document.getElementById("title").value.trim();
   const content = document.getElementById("content").value.trim();
@@ -57,7 +57,7 @@ noteForm.addEventListener("submit", async (e) => {
     body: JSON.stringify({ title, content }),
   });
 
-  noteForm.reset();
+  note_form.reset();
   fetchNotes();
 });
 

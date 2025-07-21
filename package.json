@@ -1,0 +1,30 @@
+{
+  "name": "note-tracking-app",
+  "version": "1.0.0",
+  "description": "This is note tracking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JignabahenKalani/Note-tracking-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JignabahenKalani/Note-tracking-app/issues"
+  },
+  "homepage": "https://github.com/JignabahenKalani/Note-tracking-app#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  }
+}

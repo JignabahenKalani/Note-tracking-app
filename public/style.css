@@ -38,18 +38,21 @@ ul {
   padding: 0;
 }
 li {
+  display:grid;
+  gap: 7px;
   background: #e9ecef;
   margin: 10px 0;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 button.update, button.delete {
-  margin-left: 10px;
+  margin: top 5px;
   cursor: pointer;
-  background: none;
-  border: none;
-  font-size: 1rem;
+  background: #2a79cf;
+  color: white;
+  border: 1 solid black;
+  border-radius: 5px;
 }
 .highlight {
-  background-color: #d4edda;
+  background-color: #b3e8bf;
 }

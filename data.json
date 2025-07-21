@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "f6bf3415-3180-4ad4-a464-d6d4f620f02f",
+    "title": "note 1",
+    "content": "this is my first note from note tracking app. and i do some extra"
+  },
+  {
+    "id": "9775fa1e-7948-41be-be84-32eaf7e200fb",
+    "title": "note 2",
+    "content": "this is my second note"
+  }
+]
