@@ -64,5 +64,5 @@ note-tracker-app/
     nodemon (for development)
 
 🌐 Live Demo
-View the live site here:
+View the live site here: https://note-tracking-app.onrender.com/
 My github link here: https://github.com/JignabahenKalani
